@@ -1,9 +1,0 @@
-const nome =  "Gustavo Nappi";  //String
-const nome1 = 'Gustavo Nappi'; //String
-const nome2 = `Gustavo Nappi`; //String
-const num1 = 10;//number
-const num2 = 10.52;//number
-let nomeAluno;//undefined = não aponta para lugar nenhum na memoira
-let sobrenomeAluno = null // Nulo -> não aponta pra local nenhuma memória
-const Falso = false //boolenao falso
-const Verdadeiro = true; //booleano verdadeiro
