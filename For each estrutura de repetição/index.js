@@ -1,7 +1,10 @@
 const nome = 'Luiz Otávio';
 
-for (let i = 0; i < nome.length ; i++ ){
-    console.log(nome[i])
-}
+// for (let i = 0; i < nome.length ; i++ ){
+//     console.log(nome[i])
+// }
 
-for ()
+
+for (let valor of nome){
+    console.log(valor)
+}
