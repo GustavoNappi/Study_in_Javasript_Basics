@@ -1,4 +1,4 @@
-const nome = ['luiz', 'otavio', 'henrique'];
+const nomes = ['luiz', 'otavio', 'henrique'];
 
 // for (let i = 0; i < nome.length ; i++ ){
 //     console.log(nome[i])
@@ -15,3 +15,9 @@ console.log("#######")
 for (let valor of nome){
     console.log(valor)
 }
+
+
+
+nomes.forEach(function(valor, indice) {
+    console.log(valor, indice);
+});
