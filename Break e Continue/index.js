@@ -1,6 +1,6 @@
 const numeros = [1,2,3,4,5,6,7,8,9];
 
-//CONTINUE CONTINUA PAR A PROXIMA ITERAÇÃO
+//CONTINUE CONTINUA PARA A PROXIMA ITERAÇÃO
 //BREAK SAI DO LAÇO
 
 
@@ -99,7 +99,5 @@ for (let i = 0; i < numeros.length; i++){
         break
     }
 }
-
-
 
 
