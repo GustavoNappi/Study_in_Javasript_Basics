@@ -1,14 +1,18 @@
-//  Escreva uma função chamada pasisagem que 
+//  Escreva uma função ch   qamada pasisagem que 
 //  recebe dois argumentos, largura e altura
 //  de uma imagem(number)
 //  Retorne true se a imagem estiver no modo paisagem
 
 
-const prompt = require('prompt-sync')();
+
+
 
 
 function ePasisagem(largura,altura){
-    return largura > altura
+    return largura > altura 
 }
 
-console.log(ePasisagem(1920,1080))
+
+console.log("Verificação se a tela esta em modo paisagem", 
+    ePasisagem(1920,1080))
+
